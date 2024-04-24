@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+    button{
+        margin-bottom: 10px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+
+    input{
+        margin-bottom: 10px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}
+
+
+
+.authText{
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: grey;
+}
